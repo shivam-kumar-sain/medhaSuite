@@ -51,3 +51,5 @@ def logout():
 def forgot_password(email: str):
     # TODO: Add email sending logic
     return {"message": f"Password reset link sent to {email} (demo only)"}
+
+
